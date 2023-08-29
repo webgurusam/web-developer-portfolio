@@ -1,4 +1,8 @@
 /* common shared styles */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -18,6 +22,10 @@ body{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 50px;
 }
 
 
@@ -51,7 +59,28 @@ nav li a{
     display: flex;
     margin: 30px 10px 0 50px; 
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin: 20px 0 30px;
 }
 .banner .profile-pic{
     width: 500px;
 }
+
