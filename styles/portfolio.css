@@ -116,3 +116,9 @@ main{
 .about-info{
     text-align: center;
 }
+
+/* what i do section styles */
+
+#what-i-do-description{
+    padding: 50px 130px;
+}
