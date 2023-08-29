@@ -15,11 +15,18 @@ body{
     padding: 15px 35px;
 }
 
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+
 /* nav related css */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 120px;
 }
 .nav-title{
     color: #181818;
@@ -37,4 +44,14 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #474747;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    margin: 30px 10px 0 50px; 
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
